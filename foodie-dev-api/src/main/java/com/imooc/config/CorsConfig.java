@@ -35,7 +35,6 @@ public class CorsConfig {
         // 2. 为url添加映射路径
         UrlBasedCorsConfigurationSource corsSource = new UrlBasedCorsConfigurationSource();
         corsSource.registerCorsConfiguration("/**", config);
-//ttttttttttttttttt
         // 3. 返回重新定义好的corsSource
         return new CorsFilter(corsSource);
     }

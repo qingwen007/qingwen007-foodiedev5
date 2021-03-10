@@ -46,13 +46,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-<!--            &lt;!&ndash; 打包war [2] 移除自带内置tomcat &ndash;&gt;-->
-<!--            <exclusions>-->
-<!--                <exclusion>-->
-<!--                    <artifactId>spring-boot-starter-tomcat</artifactId>-->
-<!--                    <groupId>org.springframework.boot</groupId>-->
-<!--                </exclusion>-->
-<!--            </exclusions>-->
+            <!-- 打包war [2] 移除自带内置tomcat -->
+            <exclusions>
+                <exclusion>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                    <groupId>org.springframework.boot</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -143,4 +143,6 @@
         </dependency>
 
     </dependencies>
+
+
 </project>
